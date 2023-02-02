@@ -1,0 +1,188 @@
+.loginPage {
+    height: 100vh;
+    padding: 5% 15%;
+}
+
+.onboardingLogo {
+    width: 532px;
+    height: 398.92px;
+}
+
+.flexDivision {
+    display: flex;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+.flexLeft {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 8%;
+}
+
+.flexRight {
+    display: flex;
+    flex-basis: 20%;
+    height: 100%;
+    background: #092963;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 3rem;
+
+}
+
+.seamless {
+    font-family: 'Biko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.seamlessContent {
+    font-family: 'ProximaNovaSoftW03-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #7A7A7A;
+    padding-top: 1.5rem;
+    letter-spacing: 0.3px;
+}
+
+.loginFormRow {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.virtualLogo {
+    width: 140px;
+    height: 84.23px;
+}
+
+.welcomeText {
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.loginText {
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.fbLinks {
+    width: 153px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(119, 134, 158, 0.297312);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.userName {
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.4);
+    background: transparent;
+    mix-blend-mode: normal;
+padding-bottom: 0.5rem;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 8px;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+}
+
+.userNameLabel {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #617FB6;
+}
+
+.loginButton {
+    background: #EE5C4D;
+    border-radius: 6px;
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginButton:active {
+    transform: scale(0.98);
+
+}
+
+.dontHaveAccount{
+    font-family: 'ProximaNovaSoftW03-Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dontHaveAccountRegister{
+    font-family: 'ProximaNovaSoftW03-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #EE5C4D;
+}

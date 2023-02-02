@@ -1,0 +1,4 @@
+.OverviewDetails{
+    display: flex;
+    flex-wrap: wrap;
+}

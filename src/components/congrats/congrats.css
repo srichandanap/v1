@@ -1,0 +1,46 @@
+.congratsContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 9rem 4rem 4rem 4rem;
+    gap: 1.5rem;
+}
+.congText{
+
+    /* font-family: 'Biko'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px; 
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.compDetails{
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.resultText{
+    /* font-family: 'Proxima Nova'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #EE5C4D;
+    margin-top: 1.5rem;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    
+}
+
+.congImage{
+width: 587px;
+height: 428px;
+}

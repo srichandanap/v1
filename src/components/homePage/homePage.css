@@ -1,0 +1,473 @@
+.myCourseMarginH {
+    margin: 0% 12%;
+    /* padding: 1.2rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.helloText {
+    /* font-family: 'Biko'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #7A7A7A;
+}
+
+.nameText {
+    /* font-family: 'Biko'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #092963;
+}
+
+.ongoingItemsHome {
+    display: flex;
+    column-gap: 1rem;
+    /* justify-content: space-between; */
+    /* row-gap:2rem; */
+    /* flex-wrap: wrap; */
+    /* overflow-y: scroll; */
+}
+
+.ongoingItemHome {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.thumbnailHome {
+    width: 350px;
+    height: 250px;
+}
+
+.textOnImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 12rem;
+    gap: 10rem;
+    right: 1rem;
+}
+
+.continueHome {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    background: #EC5D52;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.thumbnailText {
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15%;
+    left: -17%;
+}
+
+.continueHome:active {
+    transform: scale(0.98);
+
+}
+
+.chapHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.headingText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoriesItem {
+    cursor: pointer;
+    mix-blend-mode: normal;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.headingDistance {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imgSize {
+    width: 331px;
+    height: 209px;
+}
+
+.course {
+    width: 331px;
+    height: 290px;
+    /* background-color: pink; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.imageCat {
+    position: relative;
+}
+
+.designLabels {
+    position: absolute;
+    top: 10rem;
+    right: 0.75rem;
+    background: #FCBE4B;
+    mix-blend-mode: normal;
+    border-radius: 6px;
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 4px 10px;
+    color: #000000;
+    padding: 6px 18px;
+}
+
+.allCat {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ongCat {
+    /* font-family: 'Biko'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.seeAll {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: #7A7A7A;
+    cursor: pointer;
+}
+
+.vName {
+    position: absolute;
+    top: -65%;
+    left: -17%;
+}
+
+.choiceYourCourse {
+    /* font-family: 'Biko'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.tabClassSelect {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #092963;
+    background: #DFE7F4;
+    border-radius: 6px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.tabClassUnselect {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #7A7A7A;
+    cursor: pointer;
+
+}
+
+.tab {
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.catCourseName {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #111111;
+    padding-left: 5%;
+
+}
+
+.catChapCount {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7A7A7A;
+    padding-left: 5%;
+}
+
+.catDetails {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.catDetailsTime {
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    /* justify-content: center; */
+
+    align-items: baseline;
+}
+
+.thumbnailCar {
+    width: 429px;
+    height: 268px;
+}
+
+
+.clockImage {
+    width: 13px;
+    height: 13px;
+}
+
+.totalTime {
+    /* font-family: 'Proxima Nova Soft'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7A7A7A;
+}
+
+@media only screen and (max-width: 1847px) {
+    .myCourseMarginH {
+        margin: 0% 9%;
+
+    }
+}
+
+@media only screen and (max-width: 1707px) {
+    .myCourseMarginH {
+        margin: 0% 7%;
+
+    }
+
+    .vName {
+        top: -0.5rem !important;
+    }
+
+    .thumbnailText {
+        top: 1rem;
+        left: -20rem;
+    }
+
+    .contMedia {
+        position: absolute;
+        top: -11.5rem;
+        right: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 1630px) {
+
+    .thumbnailHome {
+        width: 300px;
+        height: 220px;
+    }
+
+    .imgSize {
+        width: 310px;
+    }
+
+    .course {
+        width: 310px;
+    }
+
+    .vName {
+        top: -2.5rem !important;
+    }
+
+    .thumbnailText {
+        top: -1rem;
+        left: -16.75rem;
+    }
+
+}
+
+@media only screen and (max-width: 1530px) {
+    .thumbnailHome {
+        width: 270px;
+        height: 180px;
+    }
+
+    .imgSize {
+        width: 270px;
+        height: 140px;
+    }
+
+    .course {
+        width: 270px;
+        height: 220px;
+    }
+
+    .designLabels {
+        top: 6rem;
+    }
+
+    .vName {
+        top: -4.5rem !important;
+        font-size: 16px;
+    }
+
+    .thumbnailText {
+        top: -3rem;
+        left: -15rem;
+        font-size: 16px;
+    }
+
+    .continueHome {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1349px) {
+
+    .thumbnailHome {
+        width: 220px;
+        height: 150px;
+    }
+
+    .imgSize {
+        width: 220px;
+        height: 125px;
+    }
+
+    .course {
+        width: 220px;
+        height: 190px;
+    }
+
+    .designLabels {
+        top: 5.3rem;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .catCourseName {
+        font-size: 14px;
+    }
+
+    .catChapCount {
+        font-size: 14px;
+    }
+
+    .vName {
+        top: -5.5rem !important;
+        font-size: 16px;
+    }
+
+    .thumbnailText {
+        top: -4.5rem;
+        left: -12rem;
+        font-size: 16px;
+
+    }
+    .headingDistance {
+        gap: 1.5rem;
+    }
+   
+
+}
+@media only screen and (max-width: 1300px) {
+    .myCourseMarginH {
+        gap: 0rem;
+ 
+     }
+}
+
+@media only screen and (max-width: 1125px) {
+    /* .continueHome {
+        background: #5aec52;
+    } */
+    .thumbnailCar {
+        width: 180px!important;
+
+    }
+}
+
+    
+@media only screen and (max-width: 1200px) {
+    .thumbnailCar {
+        width: 339px !important;
+    }
+   
+}
+
+@media only screen and (max-width: 1707px) {
+    .thumbnailCar {
+        width: 349px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1847px) {
+    .thumbnailCar {
+        width: 379px;
+
+    }
+
+}
+
+

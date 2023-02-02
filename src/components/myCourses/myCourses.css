@@ -1,0 +1,61 @@
+.myCourseMargin{
+  margin: 0% 12%;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.myCourseText{
+    font-family: 'Biko' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #2BB5F4;
+padding: 1.2rem 0rem 0rem 1.2rem;
+cursor: pointer;
+}
+
+.tabClassOne {
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 50px; */
+    color: #7A7A7A;
+    padding: 6px 13px;
+    cursor: pointer;
+}
+
+.tabClassTwo{
+    /* font-family: 'ProximaNovaSoftW03-Medium'; */
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+background: #042C5C;
+border-radius: 6px;
+color: #FFFFFF;
+padding: 6px 13px;
+cursor: pointer;
+}
+.tabs{
+    display: flex;
+    gap: 1rem;   
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1847px) {
+    .myCourseMargin{
+        margin: 0% 9%!important;
+        
+      }   
+}
+
+@media only screen and (max-width: 1707px) {
+    .myCourseMargin{
+        margin: 0% 7%!important;
+        
+      }
+      
+}

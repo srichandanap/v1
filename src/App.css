@@ -1,0 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/f285a6f8d753d257ba672d409ebc273e?family=ProximaNovaSoftW03-Medium);
+@import url('https://fonts.cdnfonts.com/css/biko');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+/* font-family: 'Proxima Nova Soft'; */
+/* font-family: "ProximaNovaSoftW03-Medium";  */
+}
+
+.jUSPiK {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #999;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    width: 20px;
+    height: 20px;
+    background-color: #24a19c;
+    display: none;
+}
+.KTpOX {
+    display: none;
+}
+element.style {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-bottom: 40px; */
+}
+
+.cyboem {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #999;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    width: 20px;
+    height: 20px;
+    background-color: #24a19c;
+    display: none;
+}
+
+.lzixV {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #999;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    /* width: 20px; */
+    /* height: 20px; */
+    background-color: #FFFFFF;
+}

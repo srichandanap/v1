@@ -1,0 +1,531 @@
+.nav {
+  background: #092963;
+  padding: 1.2rem;
+  /* height: 200px; */
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  /* margin: 29rem; */
+}
+
+.navMargin {
+  margin: 0% 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navImage {
+  width: 175.45px;
+  height: 34.04px;
+  cursor: pointer;
+}
+
+.searchImage {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.searchBar {
+  width: 500px;
+  height: 44px;
+  background: #123779;
+  border-radius: 57px;
+  border: 0;
+  outline: 0;
+  padding-left: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+
+}
+
+.searchs {
+  /* position: absolute;
+    left: 15px;
+    top: 8px;
+    cursor: pointer; */
+  outline: none;
+  background: none;
+  border: none;
+  top: 5px;
+  left: 6px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.searchBar::placeholder {
+  /* font-family: 'ProximaNovaSoftW03-Medium'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.2px;
+}
+
+.profile {
+  border-radius: 66%;
+  width: 38.8px;
+  height: 37.8px;
+}
+
+.navRight {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.searchCloseBtn {
+  display: none;
+  cursor: pointer;
+}
+
+.searchCloseBtn:active {
+  /* background: rgba(221, 214, 214, 0.2); */
+  /* border-radius: 50%; */
+  transform: scale(0.98);
+
+}
+
+.searchList {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 1rem; */
+}
+
+.searchedItems {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 2rem;
+  width: 500px;
+}
+
+.searchedItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  /* border-bottom: 1px solid #1E4284; */
+  padding-bottom: 15px;
+  cursor: pointer;
+
+}
+
+.searchListImage {
+  width: 85px;
+  height: 85px;
+  border-radius: 6px;
+}
+
+.searchListDetailsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+}
+
+.searchedCourseName {
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.searchedChapCount {
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(255, 255, 255, 0.3);
+
+}
+
+.searchedCategory {
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #373737;
+  background: #FFFFFF;
+mix-blend-mode: normal;
+border-radius: 6px;
+padding: 3px 7px 5px 7px;
+}
+
+.noMatchingDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.noMatchingText{
+  /* font-family: 'Proxima Nova Soft'; */
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+}
+
+.tryText{
+  /* font-family: 'Proxima Nova Soft'; */
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+.searchCat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 2rem;
+  width: 500px;
+  padding-bottom: 2rem;
+}
+.topSearchCat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 2rem;
+  width: 500px;
+
+}
+
+.searchCatDuration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 500px;
+  padding-bottom: 2rem;
+}
+
+.searchCatText{
+  /* font-family: 'Proxima Nova Soft'; */
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color: #FFFFFF;
+
+}
+
+.categoriesSearch {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+.categoriesItemSearch {
+  cursor: pointer;
+  mix-blend-mode: normal;
+  background-color:  #E4E4E4;
+  border-radius: 6px;
+  padding: 4px 12px;
+  box-sizing: border-box;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.topSearch {
+  cursor: pointer;
+  mix-blend-mode: normal;
+  background-color:  #E4E4E4;
+  border-radius: 6px;
+  padding: 4px 23px 5px 23px;
+  box-sizing: border-box;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.searchWithFilter{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.orangeBg {
+  background: #EE5C4D;
+  border-radius: 17px;
+  padding: 7px 19px;
+  cursor: pointer;
+
+}
+
+.filterImg{
+  width: 24px;
+height: 18px;
+}
+.modalFilter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 18%;
+  left: 33%;
+  right: 28%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  /* padding: 2rem 3rem; */
+  /* gap: 1rem; */
+  /* width: 59%; */
+  padding: 1% 8% 1.5% 8%;
+}
+
+.SearchFilText {
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+
+}
+.srchCat {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+.filDuration{
+/* font-family: 'Proxima Nova Soft'; */
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #2B2B2B;
+}
+
+.cancelBtnFil {
+  border: none;
+  outline: none;
+  mix-blend-mode: normal;
+  border: 1px solid #E4E4E4;
+  background: #FFFFFF;
+  border-radius: 6px;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #2B2B2B;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+}
+.cancelBtnFil:active {
+  transform: scale(0.98);
+
+}
+
+
+.reSubBtnFil{
+  outline: none;
+  border: none;
+  background: #EE5C4D;
+  border-radius: 6px;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0.8rem 3rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.reSubBtnFil:active {
+  transform: scale(0.98);
+
+}
+
+.modalBtn{
+  display: flex;
+}
+
+.overlayFil {
+  position: fixed; /* Positioning and size */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.4);
+  /* display: none;  */
+}
+
+.categoriesItemSearchModal {
+  cursor: pointer;
+  mix-blend-mode: normal;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  padding: 4px 12px;
+  box-sizing: border-box;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.filterClose{
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  cursor: pointer;
+}
+
+.filterClose:active {
+  background: rgb(134, 129, 129, 0.2);
+  border-radius: 50%;
+}
+
+.filDesign{ 
+/* font-family: 'Proxima Nova Soft'; */
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #2B2B2B;
+
+}
+
+
+.dropbtn-CV {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-CV {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content-CV {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-CV div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-CV div:hover {
+  background-color: #ddd;
+}
+
+.dropdown-CV:hover .dropdown-content-CV {
+  display: block;
+}
+
+.dropdown-CV:hover .dropbtn-CV {
+  background-color: #3e8e41;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .searchBar {
+    width: 350px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 950px) {
+  .searchBar {
+    width: 220px !important;
+
+  }
+
+}
+
+@media only screen and (max-width: 1800px) {
+   
+  .modalFilter {
+    left: 31%;
+    right: 25%;
+  }
+}
+
+@media only screen and (max-width: 1470px) {
+   
+  .modalFilter {
+    left: 28%;
+    right: 21%;
+    padding: 1% 4% 1.5% 4%;
+
+  }
+  .SearchFilText{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+   
+  .modalFilter {
+    left: 21%;
+    right: 15%;
+  }
+}
+
+@media only screen and (max-width: 1847px) {
+  .navMargin{
+      margin: 0% 9%;
+      
+    }   
+}
+
+@media only screen and (max-width: 1707px) {
+  .navMargin{
+      margin: 0% 7%;
+      
+    }
+    
+}

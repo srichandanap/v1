@@ -1,0 +1,293 @@
+.moduletestText {
+  font-family: 'Biko' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 30px; */
+  color: #2BB5F4;
+  padding: 1.2rem 0rem 0rem 1.2rem;
+}
+
+.myCourseMargin {
+  margin: 0% 12%;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  position: relative;
+}
+
+.questionsDiv {
+  display: flex;
+  /* flex-basis: 80%; */
+  padding: 0rem 0rem 0rem 1.2rem;
+  /* flex-direction: column; */
+
+}
+
+.questionDesc {
+  display: flex;
+  flex-basis: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.timingText {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.questionNumberText {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #7A7A7A;
+}
+
+.remainingText {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+  color: #2BB5F4;
+}
+
+.questions {
+  display: flex;
+  /* flex-basis: 60%; */
+  flex-wrap: wrap;
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #2B2B2B;
+}
+
+.questionPart {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  /* border: 2px solid black; */
+  height: fit-content;
+  padding: 0rem 0rem 0rem 1.2rem;
+  gap: 2rem;
+}
+
+.q {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.answerDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.answerBLock {
+
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2B2B2B;
+}
+
+.answerRow {
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: self-end;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.changeQuestionDiv {
+  background: #2BB5F4;
+  border-radius: 6px;
+}
+
+.chapNameCountText {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.chapTextTwo {
+
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.changeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.chapListDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footerDivQ {
+  display: flex;
+  padding: 2rem 0rem 0rem 1.2rem;
+}
+
+.answerRows {
+  background: #EC5D52;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: self-end;
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+}
+
+.answerBLocks {
+
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.arrBtn {
+  border: none;
+  /* outline: none; */
+  background: none;
+}
+
+.arrBtnSubmit {
+  border: none;
+  outline: none;
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #EC5D52;
+  border-radius: 6px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.arrBtnSubmit:active {
+  transform: scale(0.98);
+
+}
+
+.modalComp {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 30%;
+  left: 20%;
+  right: 20%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  /* padding: 2rem 3rem; */
+  gap: 1rem;
+  width: 59%;
+  padding: 5%;
+}
+
+.endText {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.remTimeText {
+  /* font-family: 'Proxima Nova'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.cancelBtn {
+  border: none;
+  outline: none;
+  mix-blend-mode: normal;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #2B2B2B;
+  padding: 0.5rem 3.5rem;
+  cursor: pointer;
+
+}
+.cancelBtn:active {
+  transform: scale(0.98);
+
+}
+
+.reSubBtn{
+  outline: none;
+  border: none;
+  background: #EE5C4D;
+  border-radius: 6px;
+  /* font-family: 'Proxima Nova Soft'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0.5rem 3.5rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.reSubBtn:active {
+  transform: scale(0.98);
+
+}
+
+.modalBtn{
+  display: flex;
+}
+
+.overlay {
+  position: fixed; /* Positioning and size */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.4);
+
+  /* display: none;  */
+}

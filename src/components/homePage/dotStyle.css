@@ -1,0 +1,29 @@
+button.rec-dot_active {
+    background-color: #EE5C4D;
+    box-shadow: 0 0 0.5px 0.5px #EE5C4D;
+}
+
+button.rec-dot:focus,
+button.rec-dot:hover {
+    /* box-shadow: 0 0 1px 3px #EE5C4D; */
+    /* background-color: #EE5C4D; */
+    box-shadow: none;
+}
+
+button.rec-dot_active:focus,
+button.rec-dot_active:hover {
+    background-color: #EE5C4D;
+    box-shadow: 0 0 0.5px 0.5px #EE5C4D;
+}
+
+button.rec-dot{
+    background: rgba(238, 92, 77, 0.3);
+    box-shadow: 0 0 0.5px 0.5px rgba(238, 92, 77, 0.3);
+    /* outline: none!important;
+  border: none!important; */
+}
+
+.rec-arrow {
+    display: none;
+    /* pointer-events: none; */
+}
